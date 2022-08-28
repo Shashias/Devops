@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SRK FURNITUERS</title>
+    <link rel="stylesheet" href="../css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;1,100;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css"> <!--star rating-->
+<style>
+    .header{
+        background: linear-gradient(rgb(165, 232, 160),#b5b1b1);
+    }
+    .sponsers{
+        background: #000;
+        width: 100%;
+        margin-bottom: 2px;
+    }
+</style>
+</head>
+<body>
+    <div class="header">
+    <div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <img src="../images/srklogo.png" width="110" height="70px">
+        </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="../index.html" class="btn">Home</a></li>
+                <li><a href="../html/product.html" class="btn">Products</a></li>
+                <li><a href="../html/contact.html" class="btn">Contact-us</a></li>
+            </ul>
+        </nav>
+        <img src="../images/menu.png" class="menu-icon" onclick="menutoggle()">
+    </div>
+    <div class="row">
+        <div class="col-1">
+            <h1>Sri Kalikamba Furnitures <br>& Wood Works</h1>
+            <p>Quality Products that enhance your house ambiance with a best services<br>since from 1975.</p>
+            <a href="https://sites.google.com/view/srkfurnitures/contact-us?authuser=0" class="btn">Explore Now &#8594;</a>
+        </div>
+        <div class="col-1">
+            <img src="../images/wal2.jpg" width="80%" >
+        </div>
+    </div>
+    </div>
+    </div>
+<div class="About">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+            <img src="../images/founder.jpeg" height="200px">
+            <h3>&#34;Founder of Srk Furnitures&#34;</h3>
+            <h2 style="color: #ff523b;"><b>Somashekar char</b></h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque earum inventore quaerat. Iste possimus eum minus voluptas reprehenderit natus, repudiandae quisquam itaque aspernatur soluta expedita quos? Debitis alias doloremque dolores.</p>
+        </div>
+        
+        <div class="col-3">
+            <img src="../images/ceo.jpeg" height="200px">
+            <h3>&#34;CEO of Srk Furnitures&#34;</h3>
+            <h2 style="color:#ff523b ;"><b>Shashi Acharya</b></h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad numquam autem temporibus, voluptate perferendis, quos cum doloremque quae incidunt consequuntur aliquid nostrum inventore nihil quaerat beatae repudiandae earum voluptates odio.</p>
+        </div>
+        <div class="col-3">
+            <video src="../images/YouCut_20211006_140211715.mp4" controls height="300px"></video>
+            <h2 style="color:#ff523b ;"><b>Shashi Acharya</b></h2>
+            
+</div>
+<!---sponsers-->
+<div class="sponsers">
+    <div class="small-container">
+        <div class="row">
+        <div class="col-5">
+            <img src="../images/logo-godrej.png">
+        </div>
+        <div class="col-5">
+            <img src="../images/logo-oppo.png">
+        </div>
+        <div class="col-5">
+            <img src="../images/logo-philips.png">
+        </div>
+        <div class="col-5">
+            <img src="../images/logo-paypal.png">
+        </div>
+        <div class="col-5">
+            <img src="../images/logo-coca-cola.png">
+        </div>
+        </div>
+    </div>
+</div>
+
+<!-----js for toggle menu-->
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+    MenuItems.style.maxHeight = "0px";
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+        {
+            MenuItems.style.maxHeight = "200px";
+        }
+        else{
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+</script>
+</body>
+</html>

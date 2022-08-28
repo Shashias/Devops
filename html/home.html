@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SRK FURNITUERS Home</title>
+    <link rel="stylesheet" href="../css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;1,100;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css"> <!--star rating-->
+<style>
+    .header{
+        background: linear-gradient(rgb(107, 193, 203),#ffd6d6);
+    }
+    .sponsers{
+        background: #000;
+        width: 100%;
+        margin-bottom: 2px;
+    }
+</style>
+</head>
+<body>
+    <div class="header">
+    <div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <img src="../images/srklogo.png" width="110" height="70px">
+        </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="../index.html" class="btn">Home</a></li>
+                <li><a href="../html/about.html" class="btn">About us</a></li>
+                <li><a href="../html/product.html" class="btn">Products</a></li>
+                <li><a href="../html/contact.html" class="btn">Contact-us</a></li>
+            </ul>
+        </nav>
+     
+        <img src="../images/menu.png" class="menu-icon" onclick="menutoggle()">
+    </div>
+  
+    </div>
+    </div>
+    
+
+<!-----js for toggle menu-->
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+    MenuItems.style.maxHeight = "0px";
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+        {
+            MenuItems.style.maxHeight = "200px";
+        }
+        else{
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+</script>
+</body>
+</html>

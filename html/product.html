@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products - Srk Furnitures</title>
+    <link rel="stylesheet" href="../css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;1,100;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css"> 
+<style>
+    body{
+        background: radial-gradient(#7cf8f0,rgb(240, 235, 235));
+    }
+</style>
+</head>
+<body>
+    <div class="headers">
+    <div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <img src="../images/srklogo.png" width="110" height="70px">
+        </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="../index.html" class="btn">Home</a></li>
+                <li><a href="../html/about.html" class="btn">About us</a></li>
+                <li><a href="../html/contact.html" class="btn">Contact-us</a></li>
+            </ul>
+        </nav>
+       <img src="../images/menu.png" class="menu-icon" onclick="menutoggle()">
+    </div>
+    
+    </div>
+    </div>
+    </div>
+
+<!----------products----------------->
+<div class="small-container">
+    <div class="row row-2">
+        <h2>All Products</h2>
+        <select>
+            <option>Sofa-sets</option>
+            <option>Cots</option>
+            <option>L-corners</option>
+            <option>Dyning Tables</Table> </option>
+            <option>Dressing Tables</option>
+        </select>
+    </div>
+    <div class="row">
+        <div class="col-31">
+            <img src="../images/product-1.jpg">
+            <h4>Sofa</h4>
+          <p><b>75499</b> &#8360;</p>
+
+        </div>
+        <div class="col-31">
+            <img src="../images/product-3.jpg">
+            <h4>Ressin Chair</h4>
+          <p><b>22000</b> &#8360;</p>
+
+        </div>
+        <div class="col-31">
+            <img src="../images/product-2.jpg">
+            <h4>Living area set</h4>
+          <p><b>99499</b> &#8360;</p>
+
+        </div>
+        <div class="col-31">
+            <img src="../images/product-4.jpg">
+            <h4>Dyning set</h4>
+          <p><b>45000</b> &#8360;</p>
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-31">
+            <img src="../images/product-5.jpeg" height="200px">
+            <h4>Laxuiry Chair</h4>
+          <p><b>28999</b> &#8360;</p>
+
+        </div>
+        <div class="col-31">
+            <img src="../images/product-6.jpg" height="200px">
+            <h4>Cot</h4>
+          <p><b>66000</b> &#8360;</p>
+
+        </div>
+        <div class="col-31">
+            <img src="../images/product-7.jpg" height="200px">
+            <h4>Living area set</h4>
+          <p><b>99499</b> &#8360;</p>
+
+        </div>
+        <div class="col-31">
+            <img src="../images/product-8.jpg" height="200px">
+            <h4>Bedroom ambiance</h4>
+          <p><b>85000</b> &#8360;</p>
+
+        </div><br>
+        <div class="page-btn">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>&#8594;</span>
+        </div>
+</div>
+<a href="https://sites.google.com/view/srkfurnitures/products?authuser=0" class="btn">View more &#8594;</a>
+  
+
+
+<!-----js for toggle menu-->
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+    MenuItems.style.maxHeight = "0px";
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+        {
+            MenuItems.style.maxHeight = "200px";
+        }
+        else{
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+</script>
+</body>
+</html>
